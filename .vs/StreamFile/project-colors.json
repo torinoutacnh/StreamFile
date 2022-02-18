@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "9efb364c-f54c-4091-8762-c24164c1d5cc": {
+      "ProjectGuid": "9efb364c-f54c-4091-8762-c24164c1d5cc",
+      "DisplayName": "StreamFile",
+      "ColorIndex": 0
+    },
+    "589afcf0-73f7-4860-a351-9ba36d19f716": {
+      "ProjectGuid": "589afcf0-73f7-4860-a351-9ba36d19f716",
+      "DisplayName": "Cross.Core",
+      "ColorIndex": 1
+    },
+    "6868e218-78a5-420b-8293-3e7502420fc0": {
+      "ProjectGuid": "6868e218-78a5-420b-8293-3e7502420fc0",
+      "DisplayName": "StreamFile.Core",
+      "ColorIndex": 2
+    },
+    "95dea8c6-579f-4052-8731-519549423084": {
+      "ProjectGuid": "95dea8c6-579f-4052-8731-519549423084",
+      "DisplayName": "StreamFile.Core",
+      "ColorIndex": 3
+    },
+    "fa7cf17d-00ba-4217-8a5d-1a2e62d80b3e": {
+      "ProjectGuid": "fa7cf17d-00ba-4217-8a5d-1a2e62d80b3e",
+      "DisplayName": "Cross.StreamFile.Mapper",
+      "ColorIndex": 4
+    },
+    "31376a15-0f8d-407c-99eb-8d38c52e5717": {
+      "ProjectGuid": "31376a15-0f8d-407c-99eb-8d38c52e5717",
+      "DisplayName": "Cross.Core",
+      "ColorIndex": 5
+    },
+    "fc5ab816-700b-497c-96f2-1a61aee14343": {
+      "ProjectGuid": "fc5ab816-700b-497c-96f2-1a61aee14343",
+      "DisplayName": "StreamFile.Core",
+      "ColorIndex": 6
+    },
+    "1005dfaf-7acd-4ef2-881f-ffc53d23799f": {
+      "ProjectGuid": "1005dfaf-7acd-4ef2-881f-ffc53d23799f",
+      "DisplayName": "StreamFile.Mapper",
+      "ColorIndex": 7
+    },
+    "37728143-b99f-4572-9f51-7eda8d9ecba6": {
+      "ProjectGuid": "37728143-b99f-4572-9f51-7eda8d9ecba6",
+      "DisplayName": "StreamFile.Repository",
+      "ColorIndex": 8
+    },
+    "c42ed9a5-31a9-4ac8-b164-a269c098dad5": {
+      "ProjectGuid": "c42ed9a5-31a9-4ac8-b164-a269c098dad5",
+      "DisplayName": "StreamFile.Mapper",
+      "ColorIndex": 9
+    },
+    "5ef3753a-023f-4fd6-9069-4519f41952b3": {
+      "ProjectGuid": "5ef3753a-023f-4fd6-9069-4519f41952b3",
+      "DisplayName": "StreamFile.Repository.Contract",
+      "ColorIndex": 10
+    },
+    "7f28ad35-04ce-4e1f-be93-83c391fd86b4": {
+      "ProjectGuid": "7f28ad35-04ce-4e1f-be93-83c391fd86b4",
+      "DisplayName": "StreamFile.Service",
+      "ColorIndex": 11
+    },
+    "3c25d806-7552-49c3-907d-1607b6152e39": {
+      "ProjectGuid": "3c25d806-7552-49c3-907d-1607b6152e39",
+      "DisplayName": "StreamFile.Service.Contract",
+      "ColorIndex": 12
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "63052b2c-34c2-483f-9708-79eb5ecfb028": {
+      "ProjectGuid": "63052b2c-34c2-483f-9708-79eb5ecfb028",
+      "DisplayName": "StreamFile.Web",
+      "ColorIndex": 13
+    },
+    "d0357a56-4830-4f7f-a501-62c069b14292": {
+      "ProjectGuid": "d0357a56-4830-4f7f-a501-62c069b14292",
+      "DisplayName": "StreamFile.Web",
+      "ColorIndex": 14
+    }
+  },
+  "NextColorIndex": 15
+}

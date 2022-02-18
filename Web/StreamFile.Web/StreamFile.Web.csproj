@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="wwwroot\fonts\**" />
+    <Compile Remove="wwwroot\portal\**" />
+    <Content Remove="wwwroot\fonts\**" />
+    <Content Remove="wwwroot\portal\**" />
+    <EmbeddedResource Remove="wwwroot\fonts\**" />
+    <EmbeddedResource Remove="wwwroot\portal\**" />
+    <None Remove="wwwroot\fonts\**" />
+    <None Remove="wwwroot\portal\**" />
+  </ItemGroup>
+
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\Cross\StreamFile.Core\StreamFile.Core.csproj" />
+		<!-- <ProjectReference Include="..\..\Repository\StreamFile.Repository.Contract\StreamFile.Repository.Contract.csproj" />
+		<ProjectReference Include="..\..\Repository\StreamFile.Repository\StreamFile.Repository.csproj" />
+		<ProjectReference Include="..\..\Service\StreamFile.Service.Contract\StreamFile.Service.Contract.csproj" />
+		<ProjectReference Include="..\..\Service\StreamFile.Service\StreamFile.Service.csproj" /> -->
+	</ItemGroup>
+
+
+	<ItemGroup>
+	  <Folder Include="wwwroot\template\" />
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,325 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\admin\\Desktop\\StreamFile\\Service\\StreamFile.Service\\StreamFile.Service.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\admin\\Desktop\\StreamFile\\Cross\\StreamFile.Core\\StreamFile.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\admin\\Desktop\\StreamFile\\Cross\\StreamFile.Core\\StreamFile.Core.csproj",
+        "projectName": "StreamFile.Core",
+        "projectPath": "C:\\Users\\admin\\Desktop\\StreamFile\\Cross\\StreamFile.Core\\StreamFile.Core.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\admin\\Desktop\\StreamFile\\Cross\\StreamFile.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "Font.Awesome": {
+              "target": "Package",
+              "version": "[5.15.4, )"
+            },
+            "GoogleAuthenticator": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Humanizer": {
+              "target": "Package",
+              "version": "[2.11.10, )"
+            },
+            "Invedia.Core": {
+              "target": "Package",
+              "version": "[2021.7.22.1, )"
+            },
+            "Invedia.DI": {
+              "target": "Package",
+              "version": "[2021.7.22.1, )"
+            },
+            "Invedia.Data.IO": {
+              "target": "Package",
+              "version": "[2021.3.27.1, )"
+            },
+            "Invedia.Web": {
+              "target": "Package",
+              "version": "[2021.3.27.1, )"
+            },
+            "Invedia.Web.HealthCheck": {
+              "target": "Package",
+              "version": "[2021.3.23.1, )"
+            },
+            "Invedia.Web.Middlewares": {
+              "target": "Package",
+              "version": "[2021.1.12.1, )"
+            },
+            "Microsoft.ApplicationInsights.AspNetCore": {
+              "target": "Package",
+              "version": "[2.17.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.AzureKeyVault": {
+              "target": "Package",
+              "version": "[3.1.18, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.12.0, )"
+            },
+            "Sentry.AspNetCore": {
+              "target": "Package",
+              "version": "[3.9.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\admin\\Desktop\\StreamFile\\Repository\\StreamFile.Repository.Contract\\StreamFile.Repository.Contract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\admin\\Desktop\\StreamFile\\Repository\\StreamFile.Repository.Contract\\StreamFile.Repository.Contract.csproj",
+        "projectName": "StreamFile.Repository.Contract",
+        "projectPath": "C:\\Users\\admin\\Desktop\\StreamFile\\Repository\\StreamFile.Repository.Contract\\StreamFile.Repository.Contract.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\admin\\Desktop\\StreamFile\\Repository\\StreamFile.Repository.Contract\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\admin\\Desktop\\StreamFile\\Cross\\StreamFile.Core\\StreamFile.Core.csproj": {
+                "projectPath": "C:\\Users\\admin\\Desktop\\StreamFile\\Cross\\StreamFile.Core\\StreamFile.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Invedia.Data.EF": {
+              "target": "Package",
+              "version": "[2021.4.10.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\admin\\Desktop\\StreamFile\\Service\\StreamFile.Service.Contract\\StreamFile.Service.Contract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\admin\\Desktop\\StreamFile\\Service\\StreamFile.Service.Contract\\StreamFile.Service.Contract.csproj",
+        "projectName": "StreamFile.Service.Contract",
+        "projectPath": "C:\\Users\\admin\\Desktop\\StreamFile\\Service\\StreamFile.Service.Contract\\StreamFile.Service.Contract.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\admin\\Desktop\\StreamFile\\Service\\StreamFile.Service.Contract\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\admin\\Desktop\\StreamFile\\Cross\\StreamFile.Core\\StreamFile.Core.csproj": {
+                "projectPath": "C:\\Users\\admin\\Desktop\\StreamFile\\Cross\\StreamFile.Core\\StreamFile.Core.csproj"
+              },
+              "C:\\Users\\admin\\Desktop\\StreamFile\\Repository\\StreamFile.Repository.Contract\\StreamFile.Repository.Contract.csproj": {
+                "projectPath": "C:\\Users\\admin\\Desktop\\StreamFile\\Repository\\StreamFile.Repository.Contract\\StreamFile.Repository.Contract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\admin\\Desktop\\StreamFile\\Service\\StreamFile.Service\\StreamFile.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\admin\\Desktop\\StreamFile\\Service\\StreamFile.Service\\StreamFile.Service.csproj",
+        "projectName": "StreamFile.Service",
+        "projectPath": "C:\\Users\\admin\\Desktop\\StreamFile\\Service\\StreamFile.Service\\StreamFile.Service.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\admin\\Desktop\\StreamFile\\Service\\StreamFile.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\admin\\Desktop\\StreamFile\\Cross\\StreamFile.Core\\StreamFile.Core.csproj": {
+                "projectPath": "C:\\Users\\admin\\Desktop\\StreamFile\\Cross\\StreamFile.Core\\StreamFile.Core.csproj"
+              },
+              "C:\\Users\\admin\\Desktop\\StreamFile\\Repository\\StreamFile.Repository.Contract\\StreamFile.Repository.Contract.csproj": {
+                "projectPath": "C:\\Users\\admin\\Desktop\\StreamFile\\Repository\\StreamFile.Repository.Contract\\StreamFile.Repository.Contract.csproj"
+              },
+              "C:\\Users\\admin\\Desktop\\StreamFile\\Service\\StreamFile.Service.Contract\\StreamFile.Service.Contract.csproj": {
+                "projectPath": "C:\\Users\\admin\\Desktop\\StreamFile\\Service\\StreamFile.Service.Contract\\StreamFile.Service.Contract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
